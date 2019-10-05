@@ -37,5 +37,5 @@ class Moves {
         }, this.time);
     };
 };
-// 在这下面分别传入你要移动的属性的id、tag或class，然后设定它的移动位子从哪里到哪里，然后是相隔多少秒移动一次，移动速度，最后是图片
-var a = new Moves('div', 0, 600, 0.01, 100, ['0.gif', 'bilibili.gif']);
+console.log('在这下面分别传入你要移动的属性的id、tag或class，然后设定它的移动位子从哪里到哪里，然后是相隔多少秒移动一次，移动速度，最后是图片')
+console.log("var a = new Moves('div', 0, 600, 0.01, 100, ['0.gif', 'bilibili.gif'])")
